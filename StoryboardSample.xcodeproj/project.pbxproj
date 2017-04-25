@@ -10,6 +10,7 @@
 		E449F69D1EAF176F007DC7A2 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F69C1EAF176F007DC7A2 /* PinkViewController.swift */; };
 		E449F69F1EAF1AEB007DC7A2 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F69E1EAF1AEB007DC7A2 /* GreenViewController.swift */; };
 		E449F6A11EAF1B9B007DC7A2 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449F6A01EAF1B9B007DC7A2 /* BlueViewController.swift */; };
+		E449F6A31EAF30DC007DC7A2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E449F6A21EAF30DC007DC7A2 /* .gitignore */; };
 		E4610A2E1EAF1031005BAB49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4610A2D1EAF1031005BAB49 /* AppDelegate.swift */; };
 		E4610A301EAF1031005BAB49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4610A2F1EAF1031005BAB49 /* ViewController.swift */; };
 		E4610A331EAF1031005BAB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4610A311EAF1031005BAB49 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		E449F69C1EAF176F007DC7A2 /* PinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
 		E449F69E1EAF1AEB007DC7A2 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		E449F6A01EAF1B9B007DC7A2 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E449F6A21EAF30DC007DC7A2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		E4610A2A1EAF1031005BAB49 /* StoryboardSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4610A2D1EAF1031005BAB49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4610A2F1EAF1031005BAB49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		E4610A211EAF1031005BAB49 = {
 			isa = PBXGroup;
 			children = (
+				E449F6A21EAF30DC007DC7A2 /* .gitignore */,
 				E4610A2C1EAF1031005BAB49 /* StoryboardSample */,
 				E4610A2B1EAF1031005BAB49 /* Products */,
 			);
@@ -133,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E449F6A31EAF30DC007DC7A2 /* .gitignore in Resources */,
 				E4610A381EAF1031005BAB49 /* LaunchScreen.storyboard in Resources */,
 				E4610A351EAF1031005BAB49 /* Assets.xcassets in Resources */,
 				E4610A331EAF1031005BAB49 /* Main.storyboard in Resources */,
