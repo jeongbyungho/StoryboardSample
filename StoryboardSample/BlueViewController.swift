@@ -25,6 +25,22 @@ class BlueViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
+    @IBAction func goLoginAction(_ sender: Any) {
+        //guard ???
+        //styoryboard객체를 통해 메인스토리보드에 접근가능, 스토리보드객체 체이닝을 통해 옵셔널 검증 후 특정 스토리보드를 불러 올 수 있다.
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "loginvc") else {
+            return
+        }
+        
+        self.present(vc, animated: true, completion: nil);
+        
+//        
+//        let vc:LoginViewController = storyboard?.instantiateViewController(withIdentifier: "loginvc") as! LoginViewController//storyboardid입력
+//        
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
